@@ -25,23 +25,5 @@
     <div id="page" class="site">
         <header id="masthead" class="site-header" role="banner">
             <?php get_template_part('template-parts/header/nav'); ?>
-            
         </header>
         <div id="content" class="site-content">
-
-        <?php
-        trait Say_World
-        {
-          public function say_hello()
-          {
-            echo 'Hello Trait';
-          }
-        }
-
-        class Base
-        {
-          use Say_World;
-        }
-
-
-?>
